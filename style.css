@@ -11,6 +11,7 @@ body{
     background-color: hsl(335, 100%, 92%);
     color: #3f3f3f;
     line-height: 1.6;
+    
 }
 
 nav {
@@ -45,7 +46,8 @@ nav a:hover{
 }
 
 .header{
-    text-align: center;
+    display: flex;
+    justify-content: center;
     padding: 28px;
     background-color: #ffa9a9;
 }
